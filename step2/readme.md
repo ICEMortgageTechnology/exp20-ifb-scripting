@@ -6,7 +6,7 @@ Follow the steps below to complete this step. The files in this folder provide t
 
 1. For the property address group box we will add a new textbox between the city and zip.  Give this field a label of "State" and then associate (bind) it to encompass field ID: 14 (Subject Property State).  For asthetics you should also set this to a column width of 3.  Finally, so this has an easy/unique control ID for us to use later, rename the control id to StateBox. 
 
-![Alt text](/step2.1.png?raw=true)
+![Alt text](./step2.1.png?raw=true)
 
 2. For the loan details group box we'll add a new textbox for Loan House Price and bind that to encompass field ID:  136 (Trans Details Purchase Price).  We should place this before the %Down textbox. Adn for asthetics give it a column width of 6.  You may also want to select the $ symbol in the textbox since this is a money field.  Finally, so this has an easy/unique control ID for us to use later, rename the control id to PriceBox. 
 
