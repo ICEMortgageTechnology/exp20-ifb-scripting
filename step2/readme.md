@@ -10,10 +10,14 @@ Follow the steps below to complete this step. The files in this folder provide t
 
 2. For the loan details group box we'll add a new textbox for Loan House Price and bind that to encompass field ID:  136 (Trans Details Purchase Price).  We should place this before the %Down textbox. Adn for asthetics give it a column width of 6.  You may also want to select the $ symbol in the textbox since this is a money field.  Finally, so this has an easy/unique control ID for us to use later, rename the control id to PriceBox. 
 
+![Alt text](./step2.2.png?raw=true)
+
 3. Back in the loan details group box we'll need to add an additional label and textbox to capture the total loan amount.  In this case we are not using the text boxes label, but are instead adding a label on the left.  
 	Once you add the label element, you can select remove top row.  
 	You will also want to set the column to a size of 3 so the whole text will fit.
 	For the textbox, we will select Remove Label = YES.  Then we will choose the $ symbol as this is a money field.  The textbox field will bound to encompass field ID 1109 (Trans Details Loan Amt). 
 	Finally, so this textbox has an easy/unique control ID for us to use later, rename the control id to LoanAmtBox. 
+
+![Alt text](./step2.3.png?raw=true)
 
 Your form is now complete and ready for you to move onto step 3.
