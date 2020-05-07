@@ -1,0 +1,17 @@
+{
+  "name": "PluginDemoServer",
+  "version": "0.0.1",
+  "description": "Testing API for plugins",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "highcharts-export-server": "latest"
+  }
+}
