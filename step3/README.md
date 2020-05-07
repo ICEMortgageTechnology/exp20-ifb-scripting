@@ -113,7 +113,8 @@ async function findRates(ctrl) {
 	b) In this repo you will find a "demoServer" folder.  Open a console / terminal window and navigate to it.
 	c) Install the required NPM modules by running "npm install".  NOTE:  The highcharts module will ask you some questions.  You willneed to agree to the license, but you only need the basics and can answer N to the rest.
 	d) To run the server, type "node server.js"
-*NOTE: To be safe and ensure you won't get an SSL issue, you may want to visit: https://localhost:8443/ and accept the SSL safety message.*
+
+_NOTE: To be safe and ensure you won't get an SSL issue, you may want to visit: https://localhost:8443/ and accept the SSL safety message._
 
 7. Now in the LO Connect Admin, enable your form (if it isn't already).  Then navigate to the a loan within LO Connect.  Once there, you can view the form by going to `Forms > Custom Input Forms > Mortgage Rate Explorer - Step1` NOTE: if you've changed the name or are using the zip from this step, make sure to use that name in your navigation.  Now that you are there, open your developer console so you can see the request/response of your API.  Fill out the form and click "Find Rates".
 
